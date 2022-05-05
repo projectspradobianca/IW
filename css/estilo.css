@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #87CEFA;
 }
@@ -42,22 +46,20 @@ p{
     text-indent: 40px;
     text-align: justify;
     margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 150px;
-  margin-left: 150px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-ol{
-    color: #000000;
-    font-weight: bold;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a{
-    font-size: 1.5em;
+    font-size: 1em;
     color: #00008B;
     font-weight: bold;
+}
+
+footer{
+    background-color: #00008B;
 }
 
 
