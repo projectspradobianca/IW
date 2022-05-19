@@ -6,19 +6,28 @@ body{
     background-color: #87CEFA;
 }
 
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 .container{
     width: 80%;
     margin: auto;
 
 }
 
+.itens_menu li{
+    font-size: 1.3;
+    line-height: 1.5;
+}
+
 h1{ 
-    border: #00008B;
-    border-style: solid;
-    text-align: center;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
     color: #00008B;
     font-family: Georgia, 'Times New Roman', Times, serif, serif
-    
 }
 
 h2{
@@ -33,6 +42,8 @@ h2{
 
 figure{
     text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .img_topo{
@@ -50,6 +61,7 @@ p{
     margin-right: 150px;
     margin-left: 150px; */
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
 }
 
 a{
@@ -60,6 +72,13 @@ a{
 
 footer{
     background-color: #00008B;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
 }
 
 
