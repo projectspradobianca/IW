@@ -47,6 +47,7 @@ h2{
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 .img_topo{
     width: 100%;
 }
@@ -98,7 +99,8 @@ footer{
     text-align: center;
 }
 
-.fim{
-    color: gold;
+.direita{
+    width: 300px;
+    float: right;
+    margin: 1%;
 }
-
