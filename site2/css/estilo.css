@@ -3,7 +3,11 @@ html{
 }
 
 body{
-    background-image: url(fundo.jpg);
+    background-image: url(https://wallpaper.dog/large/966403.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
 }
 
 section{
@@ -31,7 +35,7 @@ h1{
     font-size: 2em;
     margin-top: 1%;
     margin-bottom: 1%;
-    color: gold;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -45,6 +49,18 @@ h2{
 
 .img_topo{
     width: 100%;
+}
+
+.img_I{
+    width: 30%;
+}
+
+.img_II{
+    width: 30%;
+}
+
+.img_III{
+    width: 30%;
 }
 
 figure{
@@ -64,7 +80,7 @@ p{
 
 a{
     font-size: 1em;
-    color: white;
+    color: black;
     font-weight: bold;
     text-align: center;
 }
