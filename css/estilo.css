@@ -92,6 +92,10 @@ a{
     text-align: center;
 }
 
+a:hover{
+    color: gold
+}
+
 footer{
     background-color: black;
     padding-top: 2%;
