@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Bebas Neue', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(https://wallpaper.dog/large/966403.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.itens_menu{
+    text-align: center;
+}
+
+.itens_menu li{
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: black;
+    font-family:'Bebas Neue', cursive;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    color: gold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.img_topo{
+    width: 100%;
+}
+
+.img_I{
+    width: 30%;
+}
+
+.img_II{
+    width: 30%;
+}
+
+.img_III{
+    width: 30%;
+}
+
+.direita{
+    float: right;
+    width: 10%;
+}
+
+figure{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+p{
+    font-size: 1.5em;
+    color: white;
+    text-indent: 40px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+a{
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover{
+    color: gold
+}
+
+footer{
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.direita{
+    width: 300px;
+    float: right;
+    margin: 1%;
+}
