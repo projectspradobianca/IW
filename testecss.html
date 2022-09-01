@@ -1,30 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Teste CSS interno e inline </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title> teste css </title>
     <style>
-        body{
-            background-color: cadetblue;
+        body {
+            background-color: blue;
         }
 
-        h1{
+        h1 {
             text-align: center;
             font-weight: bold;
         }
 
-        p{
-            color: black;
+        p {
+            color: white;
+        }
+
+        .container {
+            position: relative;
+            background-color: blue;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesquerda {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: chartreuse;
+
+        }
+
+        .topodireita {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rebeccapurple;
+
+        }
+
+        .baixoesquerda {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: red;
+
+        }
+
+
+        .baixodireita {
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: yellowgreen;
+
+        }
+
+        .centro {
+            position: absolute;
+            width: 20%;
+            background-color: yellow;
+            top: 610px;
+            right: 40%;
+
+
+        }
+
+        .fixa {
+
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
         }
     </style>
 </head>
-<body>
-    <h1 style="background-color: darksalmon;color: black;font-style: italic;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident fugiat blanditiis accusantium nostrum natus, nemo repellendus aspernatur distinctio! Asperiores maiores quos qui tenetur debitis totam quas ducimus distinctio dolore eos.</h1>
-    <p style="background-color: crimson;color: black;font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nulla vel! Incidunt quos repellendus nobis unde repellat obcaecati iste laborum! Commodi modi, ea ab non quod pariatur officia debitis obcaecati.</p>
-    <p style="background-color: crimson;color: black;font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sit laborum itaque omnis assumenda praesentium exercitationem atque quibusdam, optio dolor animi quaerat nesciunt recusandae? Officia rerum ab nostrum provident assumenda.</p>
 
-    
+<body>
+
+    <header>
+        <h1 class="fixa" style="background-color:brown;color: white;"> Teste CSS interno e Inline </h1>
+    </header>
+    <div class="main">
+        <h1>Testando....</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsq</div>
+            <div class="topodireita">TopoDir</div>
+            <div class="baixoesquerda">BaixoEsq</div>
+            <div class="baixodireita">BaixoDir</div>
+            <div class="centro">Centro</div>
+        </div>
+
+    <footer>
+        <p>Desenvolvido por Bianca Prado</p>
+    </footer>
+
 </body>
+
 </html>
