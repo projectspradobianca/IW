@@ -100,6 +100,7 @@ a{
 
 a:hover{
     color: gold
+      
 }
 
 footer{
@@ -113,4 +114,20 @@ footer{
     width: 300px;
     float: right;
     margin: 1%;
+}
+
+table,th {
+    /*border: 1px solid black;
+    height: 60px;
+    vertical-align: bottom;
+    width: 80%;*/
+
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 130%;
+    color: #d60438;
+    line-height: 1.3;
+    padding: 0.5%;
+    font-weight: bolder;
+    text-indent: 5%;
 }
